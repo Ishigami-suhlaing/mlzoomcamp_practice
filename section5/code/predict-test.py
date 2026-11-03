@@ -4,7 +4,7 @@
 import requests
 
 
-url = 'http://localhost:9696/predict'
+url = 'https://mlzoomcamp-homework.onrender.com/predict'
 
 customer_id = 'xyz-123'
 customer = {
@@ -24,9 +24,9 @@ customer = {
     "contract": "month-to-month",
     "paperlessbilling": "yes",
     "paymentmethod": "electronic_check",
-    "tenure": 24,
+    "tenure": 4,
     "monthlycharges": 29.85,
-    "totalcharges": (24 * 29.85)
+    "totalcharges": (1 * 29.85)
 }
 
 
