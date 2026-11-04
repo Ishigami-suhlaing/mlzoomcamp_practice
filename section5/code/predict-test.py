@@ -33,6 +33,8 @@ customer = {
 response = requests.post(url, json=customer).json()
 print(response)
 
+
+
 if response['churn'] == True:
     print('sending promo email to %s' % customer_id)
 else:
