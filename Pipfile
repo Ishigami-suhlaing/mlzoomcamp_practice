@@ -11,7 +11,7 @@ waitress = "*"
 pandas = "*"
 requests = "*"
 seaborn = "*"
-
+xgboost = "*"
 
 [dev-packages]
 
